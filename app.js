@@ -9,9 +9,9 @@ let mass = document.querySelector(".mass-result")
 
 convertBtn.addEventListener('click', function() {
     let value = input.value
-    length.textContent = `${value} metros = ${getLengthFeet()} pies | ${value} pies = ${getLengthMeters()} metros`
-    volume.textContent = `${value} litros = ${getVolumeLiters()} galones | ${value} galones = ${getVolumeGallons()} litros`
-    mass.textContent = `${value} kilos = ${getMassKg()} libras | ${value} libras = ${getMassPounds()} kilos`
+    lengthCont.textContent = `${value} metros = ${getLengthFeet()} pies | ${value} pies = ${getLengthMeters()} metros`
+    volumeCont.textContent = `${value} litros = ${getVolumeLiters()} galones | ${value} galones = ${getVolumeGallons()} litros`
+    massCont.textContent = `${value} kilos = ${getMassKg()} libras | ${value} libras = ${getMassPounds()} kilos`
 })
 
 //
